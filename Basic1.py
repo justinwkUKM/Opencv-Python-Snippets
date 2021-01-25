@@ -31,3 +31,9 @@ print('Package Imported')
 #     if cv2.waitKey(1) & 0xFF == ord('q'):
 #         break
 
+
+# Show Image Size
+img = cv2.imread('Res/img1.jpg')
+print(img.shape)    # (720, 1280, 3) (Height, Width, Channels)
+# cv2.imshow("Output", img)
+# cv2.waitKey(0)
